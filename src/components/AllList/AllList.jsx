@@ -56,7 +56,7 @@ function AllList() {
 
     return (
         <>
-            {isPending ? (<p className='loading'>Is Loading...</p>) : (
+            {isPending ? (<p className='loading'> Loading...</p>) : (
                 <div className="container">
 
                     <table className="list">
