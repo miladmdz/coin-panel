@@ -1,0 +1,10 @@
+.holder-error{
+    background-color: gray;
+    height: 100vh;
+}
+.text-error{
+    color: white; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

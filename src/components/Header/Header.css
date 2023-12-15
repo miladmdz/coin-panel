@@ -1,0 +1,82 @@
+.holder{
+    background-color: black;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.holder-left{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 30%;
+}
+.link{
+    padding: 12px;
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s;
+    border-bottom: 3px solid black;
+}
+.link.active , .link:hover{
+    border-bottom: 3px solid white;
+}
+
+.holder-search{
+    border: white 1px solid;
+    border-radius: 5px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 230px;
+}
+.icon-search{
+    color: white;
+}
+.input-search{
+    color: white;
+    background-color: transparent;
+    outline: none;
+    border: none;
+}
+.mobile-menu{
+    display: none;
+    width: 100vh;
+    position: relative;
+}
+.mobile-btn-menu{
+    display: none;
+}
+.mobile-holder-icon{
+    max-width: 35px;
+    border: 1px solid white;
+    padding: 5px 8px;
+    border-radius: 5px;
+    cursor: pointer; 
+}
+.mobile-icon{
+    color: white;
+}
+.mobile-holder-list-menu{
+    background-color: rgb(58, 58, 58);
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    left: -1600px;
+    transition: all 0.3s;
+    z-index: 5;
+    height: 100vh;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    opacity: 0;
+}
+.mobile-holder-list-menu.visible{
+    left: 0px;
+    opacity: 1;
+}
+.mobile-holder-links{
+    display: flex;
+    min-width: 200px;
+    flex-direction: column;
+}

@@ -1,0 +1,89 @@
+.loading{
+  color: white;
+  font-weight: bold;
+  font-size: 50px;
+  text-align: center;
+}
+.list {
+    min-width: 100%;
+}
+.tr-heade {
+  min-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid blue;
+  background: rgb(18, 60, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(18, 60, 0, 1) 0%,
+    rgba(8, 28, 0, 1) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
+}
+
+.th-heade {
+  padding: 12px;
+  color: white;
+  min-width: 138px;
+}
+.tr-body {
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.td-body {
+  padding: 12px 0;
+  color: white;
+  min-width: 120px;
+  cursor: pointer;
+}
+.name-coin{
+  display: inline;
+}
+.logo-list {
+  width: 30px;
+}
+.logo-star {
+  cursor: pointer;
+  font-size: 20px;
+  color: gray;
+}
+.gold{
+    color: gold;
+}
+.green{
+    color: green;
+}
+.red{
+    color: red;
+}
+.pagination{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.holder-number{
+  background-color: transparent;
+  color: blue;
+  padding: 12px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.holder-number.active{
+  background-color: blue;
+  color: white;
+}
+.number-page{
+  margin-bottom: 0;
+  border-bottom: 1px solid transparent;
+}
+.holder-number:hover{
+  background-color: rgb(22, 22, 22);
+}
+.holder-number:hover .number-page{
+  border-bottom: 1px solid blue;
+}
